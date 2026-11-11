@@ -10,18 +10,18 @@ class Peminjaman extends CI_Controller {
     function create() {
         $this->load->model('Barang_model');
         $data['barang'] = $this->Barang_model->get_all();
-        $this->load->view('Peminjaman_create', $data);
+        $this->load->view('peminjaman_create', $data);
     }
 
     function store() {
-        $this->load->model('peminjaman_model');
+        $this->load->model('Peminjaman_model');
         $data = array(
             'barang_id' => $this->input->post('barang_id'),
             'nama_peminjam' => $this->input->post('nama_peminjam'),
             'jumlah' => $this->input->post('jumlah'),
             'status' => 'dipinjam'
         );
-        $this->Peminjaman_model->($data);
+        $this->Peminjaman_model->insert($data);
         redirect('peminjaman');
     }
 

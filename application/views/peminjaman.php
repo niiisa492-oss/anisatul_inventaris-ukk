@@ -1,12 +1,12 @@
 <html>
     <body>
         <h2>Data Peminjaman</h2>
-    <a herf="<?=base_url('dashboard') ?>">Dashboard</a>  |
-    <a herf="<?=base_url('barang') ?>">Barang</a>  |
-    <a herf="<?=base_url('peminjaman') ?>">Peminjaman</a>
+    <a href="<?=base_url('dashboard') ?>">Dashboard</a>  |
+    <a href="<?=base_url('barang') ?>">Barang</a>  |
+    <a href="<?=base_url('peminjaman') ?>">Peminjaman</a>
 <hr>
 
-<a herf="<?=base_url('peminjaman/create') ?>">+Catat Peminjaman</a>
+<a href="<?=base_url('peminjaman/create') ?>">+Catat Peminjaman</a>
 <br><br>
 
 <table border="1" cellpadding="5">
@@ -28,7 +28,7 @@
     <td><?= $status ?></td>
     <td>
         <?php if($p->status == 'dipinjam'){ ?>
-            <a herf="<?= base_url('peminjaman/kembalikan/'.$p->id) ?>">Kembalikan</a>
+            <a href="<?= base_url('peminjaman/kembalikan/'.$p->id) ?>">Kembalikan</a>
             <?php } else {echo "-";} ?>
 </td>
 </td>

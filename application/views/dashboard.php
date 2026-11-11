@@ -1,9 +1,9 @@
 <html>
   <body>
     <h2>Dashboard Inventaris Sekolah</h2>
-    <a herf='<?=base_url('dashboard') ?>'>Dashboard</a>  |
-    <a herf='<?=base_url('barang') ?>'>Barang</a>  |
-    <a herf='<?=base_url('peminjaman') ?>'>Peminjaman</a>
+    <a href='<?=base_url('dashboard') ?>'>Dashboard</a>  |
+    <a href='<?=base_url('barang') ?>'>Barang</a>  |
+    <a href='<?=base_url('peminjaman') ?>'>Peminjaman</a>
 <hr>
 
 <p>Total Dipinjam: <b><?= $dipinjam ?></b></p>
