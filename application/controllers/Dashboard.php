@@ -8,6 +8,6 @@ class Dashboard extends CI_Controller {
         $data['dipinjam'] = $this->Peminjaman_model->total_dipinjam();
         $data['kembali'] = $this->Peminjaman_model->total_kembali();
 
-        $this->load->view('dashboard/index', $data);
+        $this->load->view('dashboard', $data);
     }
 }

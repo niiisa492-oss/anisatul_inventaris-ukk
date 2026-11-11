@@ -1,7 +1,7 @@
 <html>
     <body>
         <h2>Data Peminjaman</h2>
-    <a herf="<?=base_url('index') ?>">Dashboard</a>  |
+    <a herf="<?=base_url('dashboard') ?>">Dashboard</a>  |
     <a herf="<?=base_url('barang') ?>">Barang</a>  |
     <a herf="<?=base_url('peminjaman') ?>">Peminjaman</a>
 <hr>
