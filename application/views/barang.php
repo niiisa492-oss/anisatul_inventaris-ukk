@@ -6,7 +6,7 @@
         <a href="<?= base_url('peminjaman') ?>">Peminjaman</a>
         <hr>
 
-    <a herf="<?= base_url('barang/create') ?>">+Tambah</a>
+    <a href="<?= base_url('barang/create') ?>">+Tambah</a>
     <br><br>
 
 <table border="1" cellpadding="5">
