@@ -21,8 +21,8 @@
 <?php $no=1; foreach($barang as $b){ ?>
 <tr>
     <td><?= $no++ ?></td>
-    <td><?= $nama_barang ?></td>
-    <td><?= $stok ?></td>
+    <td><?= $b->nama_barang ?></td>
+    <td><?= $b->stok ?></td>
 </tr>
 
 <?php } ?>
