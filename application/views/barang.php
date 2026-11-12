@@ -12,7 +12,6 @@
 <table border="1" cellpadding="5">
     <tr><th>No</th>
     <th>Nama</th>
-    <th>Lokasi</th>
     <th>Stok</th>
     <th>Aksi</th>
     </tr>

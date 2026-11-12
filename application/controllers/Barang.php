@@ -15,7 +15,6 @@ class Barang extends CI_Controller {
         $this->load->model('Barang_model');
         $data = array(
             'nama_barang' => $this->input->post('nama_barang'),
-            'nama_lokasi' => $this->input->post('nama_lokasi'),
             'stok' => $this->input->post('stok')
         );
         $this->Barang_model->insert($data);
