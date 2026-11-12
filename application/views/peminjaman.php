@@ -14,7 +14,6 @@
         <th>No</th>
         <th>Peminjam</th>
         <th>Barang</th>
-        <th>Lokasi</th>
         <th>Jumlah</th>
         <th>Status</th>
         <th>Aksi</th>

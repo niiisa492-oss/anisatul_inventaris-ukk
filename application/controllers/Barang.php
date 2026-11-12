@@ -18,12 +18,12 @@ class Barang extends CI_Controller {
             'stok' => $this->input->post('stok')
         );
         $this->Barang_model->insert($data);
-        redirect('barang');
+        redirect('barang'),
     }
 
     function delete($id) {
         $this->load->model('Barang_model');
         $this->Barang_model->delete($id);
-        redirect('barang');
+        redirect('barang')
     }
 }
