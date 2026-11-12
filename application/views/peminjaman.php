@@ -25,7 +25,7 @@
     <td><?= $p->nama_peminjam?></td>
     <td><?= $p->nama_barang ?></td>
     <td><?= $p->jumlah ?></td>
-    <td><?= $status ?></td>
+    <td><?= $p->status ?></td>
     <td>
         <?php if($p->status == 'dipinjam'){ ?>
             <a href="<?= base_url('peminjaman/kembalikan/'.$p->id) ?>">Kembalikan</a>
